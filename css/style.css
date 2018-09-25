@@ -111,6 +111,20 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+.background {
+  background-image: url("img/wideshot.png");
+  /* The image used */
+  background-color: black;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
