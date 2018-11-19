@@ -6,45 +6,131 @@
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="img/logo-black.jpg">
         
         <title>The Fix | Function Band</title>
+        <script src="script.js"></script>
     </head>
-<!-- HEADER -->
-<div class="background">
-    <header class="u-center-text background-black">
-		<div class="row">
-			<div class="col-1-of-3" style="">
-                <div class="row" style="padding-top: 3rem;">
+
+ <!-- ITEM 1 | ITEM 2 | FIX LOGO | ITEM 3 | ITEM 4
+ 
+                    VIDEO                       
+ 
+ 
+        TEXT ABOUT              |   IMAGE -->
+
+<!-- 3 components, header, video, feature.  -->
+
+<body>
+    <section class="headervid-section">
+        <div class="bg-video">
+                    <video  class="bg-video__content" muted loop autoplay>
+                        <source src="img/shortvid.mp4" type="video/mp4">
+                        <source src="img/shortvid.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
+    <header class="header">
+          
+        <a href="#" class="btn btn--text btn--animated">Weddings</a>
+        <a href="#" class="btn btn--text btn--animated">Parties</a>
+        <div class="header__logo-box">
+               <a onClick="contentClear()" href="#"> <img src="img/logo-white.png" alt="Logo" class="header__logo"/></a>
+        </div>
+        <a href="#" onCLick="contentAbout()" class="btn btn--text btn--animated">About</a>
+        <a href="#" class="btn btn--text btn--animated">Contact us</a>
+    </header>
+    </section>
+    <section id="content" class="section-content">
+        
+
+    </section>
+
+    <!-- <header class="u-center-text header">
+        <div class="row">
+            <div class="col-1-of-3">left text -->
+<!--                 <div class="row" style="padding-top: 3rem;">
                     <div class="col-1-of-3" style="padding-right: 13rem; ">
-                        <h1>WEDDINGS</h1>
+                        <a href="#" class="header__text">WEDDINGS</a>
                     </div>
                     <div class="col-1-of-3" style="padding-left: 1rem; ">
-                        <h1>PARTIES</h1>
+                        <a href="#" class="header__text">PARTIES</a>
                     </div>
                 </div>
             </div>
-			<div class="col-1-of-3" style="">
-                <img style="width:18rem;"src="img/logo-white.png" alt="Logo" >
+            <div class="col-1-of-3"> logo -->
+         <!--        <img class="header__logo" style="width:16rem;"src="img/logo-white.png" alt="Logo" >
             </div>
-			<div class="col-1-of-3" style="">
-                <div class="row" style="padding-top: 3rem;">
+            <div class="col-1-of-3"> right text -->
+           <!--       <div class="row" style="padding-top: 3rem;">
                     <div class="col-1-of-3" style="">
-                        <h1>ABOUT</h1>
+                        <a class="header__text">ABOUT</a>
                     </div>
                     <div class="col-1-of-3" style="">
-                        <h1>CONTACT</h1>
+                        <a class="header__text">CONTACT</a>
                     </div>
                 </div>
             </div>
-		</div>
-	</header>
-    <img style="width:100%;"src="img/wideshot.png" alt="Logo" >
-</div>
-
-
-
+        </div> -->
+        
+  <!--   </header> -->
+    <!-- video -->
+  <!--   <section class="section-video">
+        <div class="bg-video">
+                    <video  class="bg-video__content"  mute loop autoplay>
+                        <source src="img/shortvideo.mp4" type="video/mp4">
+                        <source src="img/shortvideo.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
+    </section> --> 
+    <!-- About feature -->
+   <!--  <main>
+        <section class="feature">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="feature__text">
+                        <h1 class="feature__header">ABOUT US</h1>
+                        <p class="feature_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia odit nisi natus illo, molestiae rem, sed animi accusantium eos perferendis, placeat officia laborum minus cumque. Placeat, possimus atque aut aliquid.</p>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="feature__image"><img class="mainImage" style="width:25%;"src="img/wideshot.png" alt="Logo" ></div>
+                </div>
+            </div>
+        </section>
+    </main> -->
+</body>
+<footer class="footer">
+    <div class="footer__logo-box">
+        <img src="img/logo-white.png" alt="Full logo" class="footer__logo">
+    </div>
+    <div class="row">
+        <div class="col-1-of-2">
+            <div class="footer__navigation">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-1-of-2">
+            <p class="footer__copyright">
+                Built by <a href="#" class="footer__link">Nathan Steele</a> 
+            </p>
+        </div>
+    </div>
+</footer>
 
 </html>
+<!-- 
+To do:
+-add about component
+-convert h1s to links
+-set the header to translucent
+-style the header
+-add animations
+- -->

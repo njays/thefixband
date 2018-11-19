@@ -1,0 +1,46 @@
+.footer {
+	background-color: #333;
+	padding: 2rem;
+	font-size: 1.4rem;
+	// margin-top: 85vh;
+// CHANGE LINKS TO SOCIALMEDIA LINKS
+	&__logo-box {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	&__logo {
+		height: 5rem;
+
+	}
+	&__navigation {
+
+	}
+
+	&__list {
+		list-style: none;
+	}
+
+	&__item {
+		display: inline-block;
+
+		&:not(:last-child) {
+			margin-right: 1rem;
+		}
+	}
+	&__link {
+		
+		&:link,
+		&:visited {
+			color: $color-grey-light1;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+		}
+
+		&:hover,
+		&:active {
+			color: $color-primary;
+			box-shadow: 0 1rem 2rem rgba($color-black, .4);
+		}
+	}
+}

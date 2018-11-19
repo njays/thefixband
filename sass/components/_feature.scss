@@ -1,0 +1,13 @@
+.feature {
+	z-index: 2;
+
+	background-color: red;
+	&__text {
+		background-color: blue;
+
+	}
+	&__image {
+		background-color: yellow;
+
+	}
+}

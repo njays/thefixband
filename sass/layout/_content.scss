@@ -1,0 +1,16 @@
+.content {
+	width: 50%;
+	color: black;
+	padding: 3rem;
+}
+
+.content-2 {
+	width: 50%;
+	text-align: center;
+
+	&__image {
+		height: 30rem;
+		border-radius: 5px;
+		// add HOVER EFFECT TO THE IMAGE
+	}
+}
