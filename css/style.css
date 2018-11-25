@@ -400,7 +400,12 @@ body {
   margin-left: 5vw;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
-  opacity: 0; }
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out; }
 
 .content {
   width: 50%;
@@ -413,6 +418,13 @@ body {
   .content-2__image {
     height: 30rem;
     border-radius: 5px; }
+
+.fadeIn {
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out; }
 
 .header {
   height: 15vh;
