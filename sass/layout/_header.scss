@@ -1,11 +1,18 @@
 .header {
   height: 15vh;
-  background-position: top;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  max-width: 100%;
+  // background-position: top;
+  // position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  padding-top:3rem;
+  z-index: 1000;
   
 
 	&__logo {
@@ -13,8 +20,3 @@
 
 	}
 }
-
-.headervid-section {
-	
-}
-
