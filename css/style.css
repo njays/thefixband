@@ -373,8 +373,7 @@ body {
 .bg-video {
   overflow: hidden;
   max-width: 100%;
-  position: relative;
-  height: 100vh; }
+  position: relative; }
   @media (max-width: 75em) {
     .bg-video {
       height: auto !important;
@@ -382,8 +381,13 @@ body {
   .bg-video__content {
     position: relative;
     z-index: -1;
-    width: 100vw;
-    object-fit: cover; }
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: -1rem; }
+    @media (max-width: 75em) {
+      .bg-video__content {
+        height: auto !important;
+        width: 100vw; } }
 
 .section-about {
   background-color: #f7f7f7;
