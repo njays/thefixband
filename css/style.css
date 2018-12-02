@@ -399,9 +399,6 @@ body {
     text-align: center; }
     .section-text__setlist-list {
       list-style-type: none; }
-  @media (max-width: 37.5em) {
-    .section-text {
-      height: 40rem; } }
   @media (max-width: 56.25em) {
     .section-text {
       display: block; } }
@@ -413,6 +410,14 @@ body {
     @media (max-width: 37.5em) {
       .section-text__div {
         height: 38rem; } }
+    .section-text__div-contact {
+      height: 28rem;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+      @media (max-width: 37.5em) {
+        .section-text__div-contact {
+          height: 22rem; } }
 
 .section-image-1 {
   background-image: url(../img/wideshot.png);

@@ -9,7 +9,6 @@
 	background-color: #333;
 	height: auto;
 	padding: 1rem;
-
 	&__setlist {
 		text-align: center;
 	
@@ -18,9 +17,6 @@
 		}
 	}
 
-	@include respond (phone) {
-		height: 40rem;
-	}
 	@include respond (tab-port) {
 		display: block;
 	}
@@ -35,6 +31,17 @@
 		background-color: rgba(white, .9);
 		// border-radius: 5px;
 		box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+		&-contact {
+			height: 28rem;
+		@include respond (phone) {
+		height: 22rem;
+	}
+		padding: 1rem;
+		background-color: rgba(white, .9);
+		// border-radius: 5px;
+		box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+		}
 		
 		
 
