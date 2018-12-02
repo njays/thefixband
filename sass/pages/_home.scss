@@ -31,17 +31,31 @@
 	}
 }
 
-.section-about-m {
-	background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark, ) ;
+.section-image-1 {
+	background-image: url(../img/wideshot.png);
+	height: 20rem;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-	&__container {
-		background-image: linear-gradient(105deg, rgba($color-white, .9)0%, rgba($color-white, .9)50%, transparent 50%) ,url(../img/wideshot.png);
-		background-size: 100%; 
-		border-radius: 3px;
-		box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+.section-image-2 {
+	background-image: url(../img/sesh.jpg);
+	height: 20rem;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-		height: 20rem;
-	}
+.section-image-3 {
+	background-image: url(../img/hihat.jpg);
+	height: 20rem;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-features {
