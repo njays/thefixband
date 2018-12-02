@@ -114,9 +114,18 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+.u-huge {
+  font-size: 5rem; }
+
 @media (max-width: 56.25em) {
   .u-phone-off {
     display: none !important; } }
+
+.u-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -384,8 +393,12 @@ body {
 .section-text {
   display: none;
   background-color: #333;
-  height: 30;
+  height: auto;
   padding: 1rem; }
+  .section-text__setlist {
+    text-align: center; }
+    .section-text__setlist-list {
+      list-style-type: none; }
   @media (max-width: 37.5em) {
     .section-text {
       height: 40rem; } }
@@ -396,7 +409,6 @@ body {
     height: 28rem;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
     @media (max-width: 37.5em) {
       .section-text__div {
@@ -408,7 +420,11 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: none; }
+  @media (max-width: 56.25em) {
+    .section-image-1 {
+      display: block; } }
 
 .section-image-2 {
   background-image: url(../img/sesh.jpg);
@@ -416,7 +432,11 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: none; }
+  @media (max-width: 56.25em) {
+    .section-image-2 {
+      display: block; } }
 
 .section-image-3 {
   background-image: url(../img/hihat.jpg);
@@ -424,7 +444,11 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: none; }
+  @media (max-width: 56.25em) {
+    .section-image-3 {
+      display: block; } }
 
 .section-features {
   padding: 20rem 0;
