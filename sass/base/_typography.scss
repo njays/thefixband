@@ -6,6 +6,10 @@ body {
 	line-height: 1.7;
 	color: $color-grey-dark;
 	padding: 0rem;
+
+	@include respond (phone) {
+		font-size: .9rem;
+	}
 }
 
 .heading-primary {

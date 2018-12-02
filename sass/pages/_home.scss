@@ -4,10 +4,34 @@
 	margin-top: -20vh;
 }
 
+.section-text{
+	display:none;
+	background-color: #333;
+	height: 30;
+	padding: 1rem;
 
+	@include respond (phone) {
+		height: 20rem;
+	}
+	@include respond (tab-port) {
+		display: block;
+	}
+
+
+	&__div {
+		height: 28rem;
+		@include respond (phone) {
+		height: 18rem;
+	}
+		padding: 1rem;
+		background-color: rgba(white, .9);
+		border-radius: 5px;
+		box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+	}
+}
 
 .section-about-m {
-	padding: 3rem 0;
 	background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark, ) ;
 
 	&__container {
@@ -16,7 +40,7 @@
 		border-radius: 3px;
 		box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
-		height: 40rem;
+		height: 20rem;
 	}
 }
 

@@ -10,6 +10,9 @@
 
 	&__image {
 		height: 30rem;
+		@include respond (tab-land){
+			height: 25rem;
+		}
 		border-radius: 5px;
 		// add HOVER EFFECT TO THE IMAGE
 	}
