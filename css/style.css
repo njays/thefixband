@@ -48,7 +48,7 @@ body {
   padding: 0rem; }
   @media (max-width: 37.5em) {
     body {
-      font-size: .9rem; } }
+      font-size: 1.4rem; } }
 
 .heading-primary {
   color: #fff;
@@ -388,7 +388,7 @@ body {
   padding: 1rem; }
   @media (max-width: 37.5em) {
     .section-text {
-      height: 20rem; } }
+      height: 40rem; } }
   @media (max-width: 56.25em) {
     .section-text {
       display: block; } }
@@ -400,7 +400,7 @@ body {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
     @media (max-width: 37.5em) {
       .section-text__div {
-        height: 18rem; } }
+        height: 38rem; } }
 
 .section-about-m {
   background-image: linear-gradient(to right bottom, #353b48, #2f3640); }

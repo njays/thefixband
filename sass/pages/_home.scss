@@ -11,7 +11,7 @@
 	padding: 1rem;
 
 	@include respond (phone) {
-		height: 20rem;
+		height: 40rem;
 	}
 	@include respond (tab-port) {
 		display: block;
@@ -21,7 +21,7 @@
 	&__div {
 		height: 28rem;
 		@include respond (phone) {
-		height: 18rem;
+		height: 38rem;
 	}
 		padding: 1rem;
 		background-color: rgba(white, .9);
