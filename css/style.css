@@ -99,6 +99,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-center-text-off {
+  text-align: left !important; }
+
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
@@ -502,9 +505,14 @@ body {
   color: black;
   padding: 3rem; }
 
+.content-set {
+  color: black;
+  padding: 3rem; }
+
 .content-2 {
   width: 50%;
-  text-align: center; }
+  color: black;
+  padding: 3rem; }
   .content-2__image {
     height: 30rem;
     border-radius: 5px; }

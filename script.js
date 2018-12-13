@@ -18,6 +18,58 @@ function contentAbout() {
 	document.getElementById('content').style.opacity = "1";
 	},500)};
 
+function contentSetlist() {
+	document.getElementById('content').style.opacity = ".0";
+
+	setTimeout(function() {
+	document.getElementById("content").innerHTML =	"<div class='content-set u-center-text'>" +
+            "<h1>SETLIST</h1>" + "<div class='u-flex'>" +
+                    "<div>" +
+                    "<ul class='section-text__setlist-list'>"+
+                        "<li class='section-text__setlist-listitem'>Can't Stop The Feeling <br><b>Justin Timberlake</b></li>"+
+                        "<li class='section-text__setlist-listitem'>2002 <br> <b>Anne Marie</b></li>"+
+                        "<li class='section-text__setlist-listitem'>Feel It Still<br><b>Portugal, The Man</b></li>"+
+                        "<li class='section-text__setlist-listitem'>I'll Be There<br><b>Jess Glynn</b></li>"+
+                    "</ul>"+
+                    "</div>"+
+                     "<div>" +
+                    "<ul class='section-text__setlist-list'>"+
+                        "<li class='section-text__setlist-listitem'>Can't Stop The Feeling <br><b>Justin Timberlake</b></li>"+
+                        "<li class='section-text__setlist-listitem'>2002 <br> <b>Anne Marie</b></li>"+
+                        "<li class='section-text__setlist-listitem'>Feel It Still<br><b>Portugal, The Man</b></li>"+
+                        "<li class='section-text__setlist-listitem'>I'll Be There<br><b>Jess Glynn</b></li>"+
+                    "</ul>"+
+                    "</div>"+
+                     "<div>" +
+                    "<ul class='section-text__setlist-list'>"+
+                        "<li class='section-text__setlist-listitem'>Can't Stop The Feeling <br><b>Justin Timberlake</b></li>"+
+                        "<li class='section-text__setlist-listitem'>2002 <br> <b>Anne Marie</b></li>"+
+                        "<li class='section-text__setlist-listitem'>Feel It Still<br><b>Portugal, The Man</b></li>"+
+                        "<li class='section-text__setlist-listitem'>I'll Be There<br><b>Jess Glynn</b></li>"+
+                    "</ul>"+
+                    "</div>"+
+                   "</div>" +
+        "</div>";
+
+	document.getElementById('content').style.opacity = "1";
+	},500)};
+
+function contentWeddings() {
+	document.getElementById('content').style.opacity = ".0";
+
+	setTimeout(function() {
+	document.getElementById("content").innerHTML =	"<div class='content-set u-center-text'>" +
+            "<h1>WEDDINGS</h1>" + "<div class='u-flex'>" +"<div class='content u-center-text-off'>" +
+            "<p>Looking for an outstanding band for you <b>wedding</b> night? Then you are looking in the right place! <b>The Fix</b> are literally here to fix your evening! <br>"+
+"We are a 5-8 piece band playing all the top 40 songs in the charts, ranging from Coldplay to Ed Sheeran. Whatever song gets you singing along to the radio, we’ll get you dancing along to on the dance floor!" +
+" For more information on our set list <a href='#' onClick='contentSetlist()''>click here</a> <br>Looking for more music on your special day? Maybe background music at dinner? Music down the aisle? Want to keep the party going after the band?</p></div>" +
+"<div class='content-2 u-center-text-off'><p>Look no further than The Fix as we have many different types of bands." +
+"We can offer you:<br></p><ul><li>Singer & Piano</li><li>Jazz Sax & Piano</li><li>Jazz trio</li><li>Jazz quartet</li><li>Jazz quintet</li><li>DJ Service</li><li>Sax and DJ Service</li></ul><p>Be sure to contact us about your special day, and we will be with you every step of the way to make sure your day is all about you! </p></div>";
+
+	document.getElementById('content').style.opacity = "1";
+	},500)};
+
+
 function contentClear() {
 	document.getElementById('content').style.opacity = ".0";
 };
