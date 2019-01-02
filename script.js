@@ -69,6 +69,22 @@ function contentWeddings() {
 	document.getElementById('content').style.opacity = "1";
 	},500)};
 
+function contentContact() {
+    document.getElementById('content').style.opacity = ".0";
+
+    setTimeout(function() {
+    document.getElementById("content").innerHTML =  "<div class='content__contact'>" +
+            "<h1>Contact Us</h1>" +
+            "<p>07733154896<br>" +
+"  thefixcardiff@gmail.com<br>" +
+    "<a><i class='u-huge fab fa-instagram'></i></a><br>" +
+    "<a><i class='u-huge fab fa-facebook-square'></i></a>" +
+        "</div>"
+        ;
+
+    document.getElementById('content').style.opacity = "1";
+    },500)};
+
 
 function contentClear() {
 	document.getElementById('content').style.opacity = ".0";

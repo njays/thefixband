@@ -6,6 +6,7 @@ body {
 	line-height: 1.7;
 	color: $color-grey-dark;
 	padding: 0rem;
+	background-color: #333;
 
 	@include respond (phone) {
 		font-size: 1.4rem;

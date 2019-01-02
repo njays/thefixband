@@ -45,7 +45,8 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
-  padding: 0rem; }
+  padding: 0rem;
+  background-color: #333; }
   @media (max-width: 37.5em) {
     body {
       font-size: 1.4rem; } }
@@ -138,7 +139,8 @@ body {
   border-radius: 1rem;
   transition: all .2s;
   position: relative;
-  font-size: 2.7rem; }
+  font-size: 2.7rem;
+  text-align: center; }
 
 .btn--white {
   background-color: #fff;
@@ -493,6 +495,31 @@ body {
   -ms-transition: opacity .5s ease-in-out;
   -o-transition: opacity .5s ease-in-out;
   transition: opacity .5s ease-in-out; }
+
+.section-youtube {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.background {
+  width: 80%;
+  -webkit-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4); }
 
 .content {
   width: 50%;
