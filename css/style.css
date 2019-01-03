@@ -112,6 +112,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.u-margin-top-small {
+  margin-top: 2rem; }
+
 .u-margin-top-big {
   margin-top: 8rem; }
 
@@ -520,6 +523,15 @@ body {
   -webkit-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
   box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4); }
+
+.background-faq {
+  background-color: white;
+  width: 80%;
+  -webkit-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4); }
+  .background-faq__textbox {
+    padding: 7rem; }
 
 .content {
   width: 50%;

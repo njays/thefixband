@@ -25,12 +25,12 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Setlist</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Weddings/<br>Parties</a></li>
-                    <li class="navigation__item"><a href="/media.html" class="navigation__link">Media</a></li>
-                    <li class="navigation__item"><a href="/faq.html" class="navigation__link">FAQ</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Contact Us</a></li>
+                    <li onClick="unCheck()" class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+                    <li onClick="unCheck()"  class="navigation__item"><a href="#setlist" class="navigation__link">Setlist</a></li>
+                    <li onClick="unCheck()"  class="navigation__item"><a href="#weddings" class="navigation__link">Weddings/<br>Parties</a></li>
+                    <li class="navigation__item"><a href="javascript:delay('media.html')" class="navigation__link">Media</a></li>
+                    <li class="navigation__item"><a href="javascript:delay('faq.html')" class="navigation__link">FAQ</a></li>
+                    <li onClick="unCheck()" class="navigation__item"><a href="#contact" class="navigation__link">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -59,7 +59,7 @@
                     </section>
         </div>
     </section>
-    <div class="section-text">
+    <div id="about" class="section-text">
         <div class="section-text__div">
             <div class="u-center-text"><h1>ABOUT</h1></div>
             <p>Looking for a band that’s lively, high quality and vibrant? <b>The Fix</b> can provide you with live music that promises to entertain and get you up on your feet. Based in <b>Cardiff</b>, but willing to travel, <b>The Fix</b> play exciting arrangements of current music, performing them with style and energy. 
@@ -71,7 +71,7 @@ We are a 5-8-piece band comprising of some of the best UK musicians who have pla
     <section class="section-image-2">
 
     </section>
-        <div class="section-text section-text__setlist">
+        <div id="setlist" class="section-text section-text__setlist">
         <div class="section-text__div">
             <div class="u-center-text"><h1>SETLIST</h1></div>
                 <div class="u-flex">
@@ -107,7 +107,7 @@ We are a 5-8-piece band comprising of some of the best UK musicians who have pla
     <section class="section-image-1">
 
     </section>
-<div class="section-text section-text-contact">
+<div id="contact" class="section-text section-text-contact">
         <div class=" section-text__div-contact u-center-text">
             <div class="u-center-text"><h1>CONTACT US</h1></div>
             <p>07733154896<br>
@@ -132,9 +132,8 @@ We are a 5-8-piece band comprising of some of the best UK musicians who have pla
         <div class="col-1-of-2">
             <div class="footer__navigation">
                 <ul class="footer__list">
-                    <li class="footer__item"><a href="#" class="footer__link"><i class="u-huge fab fa-instagram"></i></a></li>
-                    <li class="footer__item"><a href="#" class="footer__link"><i class="u-huge fab fa-facebook-square"></i></a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                    <li class="footer__item"><a href="https://www.instagram.com/the.fix.band/" class="footer__link"><i class="u-huge fab fa-instagram"></i></a></li>
+                    <li class="footer__item"><a href="https://www.facebook.com/the.fix.band.cardiff/" class="footer__link"><i class="u-huge fab fa-facebook-square"></i></a></li>
                 </ul>
             </div>
         </div>

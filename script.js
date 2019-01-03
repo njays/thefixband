@@ -1,5 +1,13 @@
 
 
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+}
+
+function unCheck() {
+    setTimeout(function() { document.getElementById("navi-toggle").checked = false}, 300 );
+}
+
 function contentAbout() {
 	document.getElementById('content').style.opacity = ".0";
 

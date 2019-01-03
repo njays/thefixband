@@ -1,0 +1,11 @@
+.background-faq {
+	background-color: white;
+	width: 80%;
+	-webkit-box-shadow: 6px 1px 14px -1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 6px 1px 14px -1px rgba(0,0,0,0.4);
+	box-shadow: 6px 1px 14px -1px rgba(0,0,0,0.4);
+	
+	&__textbox {
+		padding: 7rem;
+	}
+}
