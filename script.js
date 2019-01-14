@@ -12,15 +12,15 @@ function contentAbout() {
 	document.getElementById('content').style.opacity = ".0";
 
 	setTimeout(function() {
-	document.getElementById("content").innerHTML =	"<div class='content'>" +
+	document.getElementById("content").innerHTML =	"<div class='content__about-text'>" +
             "<h1>ABOUT</h1>" +
             "<p>Looking for a band that’s lively, high quality and vibrant? <b>The Fix</b> can provide you with live music that promises to entertain and get you up on your feet. Based in <b>Cardiff</b>, but willing to travel, <b>The Fix</b> play exciting arrangements of current music, performing them with style and energy. " + 
 "We are a 5-8-piece band comprising of some of the best UK musicians who have playing together 4 years. <br>Our line ups are as follows:<br>" +
 "6 piece: Drums, Bass, Guitar, Keys, Sax and Singer<br>" +
 "8 piece: Drums, Bass, Guitar, Keys, Sax, Trumpet, Trombone and Singer</p>" +
         "</div>" +
-        "<div class='content-2'>" +
-        "    <img class='content-2__image' src='img/wideshot.png' alt='bandphoto'>" +
+        "<div class='content__about2 u-flex'>" +
+        "    <img class='content__about2-image' src='img/wideshot.png' alt='bandphoto'>" +
         "</div>";
 
 	document.getElementById('content').style.opacity = "1";
@@ -30,7 +30,7 @@ function contentSetlist() {
 	document.getElementById('content').style.opacity = ".0";
 
 	setTimeout(function() {
-	document.getElementById("content").innerHTML =	"<div class='content-set u-center-text'>" +
+	document.getElementById("content").innerHTML =	"<div class='content__setlist u-center-text'>" +
             "<h1>SETLIST</h1>" + "<div class='u-flex'>" +
                     "<div>" +
                     "<ul class='section-text__setlist-list'>"+
@@ -66,8 +66,8 @@ function contentWeddings() {
 	document.getElementById('content').style.opacity = ".0";
 
 	setTimeout(function() {
-	document.getElementById("content").innerHTML =	"<div class='content-set u-center-text'>" +
-            "<h1>WEDDINGS</h1>" + "<div class='u-flex'>" +"<div class='content u-center-text-off'>" +
+	document.getElementById("content").innerHTML =	"<div class='content__weddings u-center-text'>" +
+            "<h1>WEDDINGS</h1>" + "<div class='u-flex'>" +"<div class='content__weddings1 u-center-text-off'>" +
             "<p>Looking for an outstanding band for you <b>wedding</b> night? Then you are looking in the right place! <b>The Fix</b> are literally here to fix your evening! <br>"+
 "We are a 5-8 piece band playing all the top 40 songs in the charts, ranging from Coldplay to Ed Sheeran. Whatever song gets you singing along to the radio, we’ll get you dancing along to on the dance floor!" +
 " For more information on our set list <a href='#' onClick='contentSetlist()''>click here</a> <br>Looking for more music on your special day? Maybe background music at dinner? Music down the aisle? Want to keep the party going after the band?</p></div>" +
@@ -85,8 +85,8 @@ function contentContact() {
             "<h1>Contact Us</h1>" +
             "<p>07733154896<br>" +
 "  thefixcardiff@gmail.com<br>" +
-    "<a><i class='u-huge fab fa-instagram'></i></a><br>" +
-    "<a><i class='u-huge fab fa-facebook-square'></i></a>" +
+    "<a href='https://www.instagram.com/the.fix.band/''><i class='u-huge fab fa-instagram'></i></a><br>" +
+    "<a href='https://www.facebook.com/the.fix.band.cardiff/''><i class='u-huge fab fa-facebook-square'></i></a>" +
         "</div>"
         ;
 

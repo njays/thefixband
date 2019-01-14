@@ -1,13 +1,62 @@
 .content {
-	width: 50%;
+	
+
+	&__contact {
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	&__setlist {
+		color: black;
+		padding: 0rem;
+		line-height: 1.4;
+	}
+
+	&__about-text {
+		width: 50%;
+	    color: black;
+	    padding: 3rem;
+	}
+
+	&__weddings {
+
+		line-height: 1.4;
+		@include respond(desktop) {
+			line-height: 1.7;
+		}
+	    color: black;
+	    padding: 3rem;
+	    list-style-position: inside;
+	}
+
+	&__weddings1 {
+		width: 50%;	
+	    color: black;
+	    padding: 3rem;
+	}
+
+	&__weddings2 {
+		width: 50%;
+		color: black;
+		padding: 3rem;
+	}
+
+	&__about2 {
+		width: 50%;
 	color: black;
 	padding: 3rem;
+
+}
+	&__about2-image {
+		height: 30rem;
+		@include respond (tab-land){
+			height: 25rem;
+		}
+		border-radius: 5px;
+		// add HOVER EFFECT TO THE IMAGE
+	}
 }
 
-.content-set {
-	color: black;
-	padding: 3rem;
-}
 
 .content-2 {
 	width: 50%;

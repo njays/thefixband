@@ -9,6 +9,7 @@
 	background-color: #333;
 	height: auto;
 	padding: 1rem;
+	list-style-position: inside;
 	&__setlist {
 		text-align: center;
 	
@@ -23,10 +24,7 @@
 
 
 	&__div {
-		height: 28rem;
-		@include respond (phone) {
-		height: 38rem;
-	}
+
 		padding: 1rem;
 		background-color: rgba(white, .9);
 		// border-radius: 5px;
@@ -73,6 +71,17 @@
 
 .section-image-3 {
 	background-image: url(../img/hihat.jpg);
+	height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:none;
+    	@include respond (tab-port) {
+		display: block;
+	}
+}
+
+.section-image-4 {
+	background-image: url(../img/matt.jpg);
 	height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;

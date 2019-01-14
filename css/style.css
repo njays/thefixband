@@ -406,7 +406,8 @@ body {
   display: none;
   background-color: #333;
   height: auto;
-  padding: 1rem; }
+  padding: 1rem;
+  list-style-position: inside; }
   .section-text__setlist {
     text-align: center; }
     .section-text__setlist-list {
@@ -415,13 +416,9 @@ body {
     .section-text {
       display: block; } }
   .section-text__div {
-    height: 28rem;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
-    @media (max-width: 37.5em) {
-      .section-text__div {
-        height: 38rem; } }
     .section-text__div-contact {
       height: 28rem;
       padding: 1rem;
@@ -459,6 +456,16 @@ body {
   display: none; }
   @media (max-width: 56.25em) {
     .section-image-3 {
+      display: block; } }
+
+.section-image-4 {
+  background-image: url(../img/matt.jpg);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none; }
+  @media (max-width: 56.25em) {
+    .section-image-4 {
       display: block; } }
 
 .section-features {
@@ -533,14 +540,50 @@ body {
   .background-faq__textbox {
     padding: 7rem; }
 
-.content {
+.content__contact {
+  text-align: center;
+  font-size: 3rem; }
+
+.content__setlist {
+  color: black;
+  padding: 0rem;
+  line-height: 1.4; }
+
+.content__about-text {
   width: 50%;
   color: black;
   padding: 3rem; }
 
-.content-set {
+.content__weddings {
+  line-height: 1.4;
+  color: black;
+  padding: 3rem;
+  list-style-position: inside; }
+  @media (min-width: 112.5em) {
+    .content__weddings {
+      line-height: 1.7; } }
+
+.content__weddings1 {
+  width: 50%;
   color: black;
   padding: 3rem; }
+
+.content__weddings2 {
+  width: 50%;
+  color: black;
+  padding: 3rem; }
+
+.content__about2 {
+  width: 50%;
+  color: black;
+  padding: 3rem; }
+
+.content__about2-image {
+  height: 30rem;
+  border-radius: 5px; }
+  @media (max-width: 75em) {
+    .content__about2-image {
+      height: 25rem; } }
 
 .content-2 {
   width: 50%;
