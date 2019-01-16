@@ -124,9 +124,21 @@ body {
 .u-huge {
   font-size: 5rem; }
 
+.u-padding-right {
+  padding-right: 4rem; }
+
 @media (max-width: 56.25em) {
   .u-phone-off {
     display: none !important; } }
+
+.u-color-black {
+  color: black; }
+
+.u-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  height: 20rem;
+  justify-content: space-around; }
 
 .u-flex {
   display: flex;
@@ -402,6 +414,15 @@ body {
   padding: 25rem 0;
   margin-top: -20vh; }
 
+.section-text-wedding {
+  padding: 8rem;
+  list-style-position: inside;
+  color: black;
+  line-height: 1.4; }
+  @media (min-width: 112.5em) {
+    .section-text-wedding {
+      line-height: 1.7; } }
+
 .section-text {
   display: none;
   background-color: #333;
@@ -539,6 +560,9 @@ body {
   box-shadow: 6px 1px 14px -1px rgba(0, 0, 0, 0.4); }
   .background-faq__textbox {
     padding: 7rem; }
+    @media (max-width: 75em) {
+      .background-faq__textbox {
+        padding: 3rem; } }
 
 .content__contact {
   text-align: center;

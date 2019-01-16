@@ -34,10 +34,24 @@
 	font-size: 5rem;
 }
 
+.u-padding-right {
+	padding-right: 4rem;
+}
+
 .u-phone-off {
 	@include respond(tab-port) {
 		display: none !important;
 	}
+}
+
+.u-color-black {
+	color: black;
+}
+.u-flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	height: 20rem;
+	justify-content: space-around;
 }
 
 .u-flex {

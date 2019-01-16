@@ -4,6 +4,17 @@
 	margin-top: -20vh;
 }
 
+.section-text-wedding {
+	padding: 8rem;
+	list-style-position: inside;
+	color: black;
+	line-height: 1.4;
+
+	@include respond (desktop) {
+		line-height: 1.7;
+	}
+}
+
 .section-text{
 	display:none;
 	background-color: #333;
@@ -15,6 +26,7 @@
 	
 		&-list {
 			list-style-type: none;
+
 		}
 	}
 
