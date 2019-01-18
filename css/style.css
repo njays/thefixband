@@ -124,12 +124,19 @@ body {
 .u-huge {
   font-size: 5rem; }
 
+.u-none {
+  display: none; }
+
 .u-padding-right {
   padding-right: 4rem; }
 
 @media (max-width: 56.25em) {
   .u-phone-off {
     display: none !important; } }
+
+@media (max-width: 56.25em) {
+  .u-phone-on {
+    display: inline !important; } }
 
 .u-color-black {
   color: black; }
@@ -691,6 +698,14 @@ body {
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
+    color: #c0392b;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+  .footer__link1:link, .footer__link1:visited {
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .footer__link1:hover, .footer__link1:active {
     color: #c0392b;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
 

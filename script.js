@@ -4,6 +4,7 @@ function delay (URL) {
     setTimeout( function() { window.location = URL }, 500 );
 }
 
+
 function unCheck() {
     setTimeout(function() { document.getElementById("navi-toggle").checked = false}, 300 );
 }
@@ -15,7 +16,7 @@ function contentAbout() {
 	document.getElementById("content").innerHTML =	"<div class='content__about-text'>" +
             "<h1>ABOUT</h1>" +
             "<p>Looking for a band that’s lively, high quality and vibrant? <b>The Fix</b> can provide you with live music that promises to entertain and get you on your feet. Based in <b>Cardiff</b>, but willing to travel, <b>The Fix</b> play exciting arrangements of current music, performing them with style and energy. " +
-"We are a 5-8-piece band comprising of some of the best UK musicians who have been playing together 4 years. <br>Our line up is as follows:<br>" +
+"We are a 5-8-piece band comprising of some of the best UK musicians who have been playing together for many years. <br>Our line up is as follows:<br>" +
 
 "<b>8 piece:</b> Drums, Bass, Guitar, Keys, Sax, Trumpet, Trombone and Singer" +
 "(a smaller band is negotiable consisting of Drums, Bass, Guitar, Keys, Sax and Singer)</p>" +
@@ -36,34 +37,33 @@ function contentSetlist() {
                 "<div class='u-center-text'><h1>SETLIST</h1></div>" +
                 "<div class='u-flex'>" +
                 "<ul class='section-text__setlist-list u-padding-right'>" +
-                        "<li class='section-text__setlist-listitem'>Into you<br><b>Ariana grande</b></li>" +
-                        "<li class='section-text__setlist-listitem'>A head full of dreams<br> <b>Coldplay</b></li>" +
-                        "<li class='section-text__setlist-listitem'>Feel It Still<br><b>Portugal, The Man</b></li>" +
-                        "<li class='section-text__setlist-listitem'>There’s nothing holding me back<br><b>Shawn Mendes</b></li>" +
-                        "<li class='section-text__setlist-listitem'>Sorry not sorry<br><b>Demi Lovato</b></li>" +
+                        "<li class='section-text__setlist-listitem'>INTO YOU<br><b>Ariana grande</b></li>" +
+                        "<li class='section-text__setlist-listitem'>FEEL IT STILL<br><b>Portugal, The Man</b></li>" +
+                        "<li class='section-text__setlist-listitem'>THERE'S NOTHING HOLDING ME BACK<br><b>Shawn Mendes</b></li>" +
+                        "<li class='section-text__setlist-listitem'>SORRY NOT SORRY<br><b>Demi Lovato</b></li>" +
  "</ul>" +
 
                 "<ul class='section-text__setlist-list u-padding-right'>" +
-                        "<li class='section-text__setlist-listitem'>Locked out of heaven<br><b>Bruno Mars</b></li>" +
-                        "<li class='section-text__setlist-listitem'>Thank you, next<br><b>Ariana Grande</b></li>" +
-                        "<li class='section-text__setlist-listitem'>Lost in Japan<br><b>Sean mendes</b></li>" +
+                        "<li class='section-text__setlist-listitem'>LOCKED OUT OF HEAVEN<br><b>Bruno Mars</b></li>" +
+                        "<li class='section-text__setlist-listitem'>THANK YOU, NEXT<br><b>Ariana Grande</b></li>" +
+                        "<li class='section-text__setlist-listitem'>LOST IN JAPAN<br><b>Sean mendes</b></li>" +
                         "<li class='section-text__setlist-listitem'>2002 <br> <b>Anne Marie</b></li>" +
 
                     "</ul>" +
                    
                     "<ul class='section-text__setlist-list u-padding-right'>" +
-                        "<li class='section-text__setlist-listitem'>Hymn for the weekend<br><b>Coldplay</b></li>"+
-                        "<li class='section-text__setlist-listitem'>All I am is you<br><b>Jess Glynne</b></li>"+
-                        "<li class='section-text__setlist-listitem'>Came here for love<br><b>Sigala</b></li>"+
-                        "<li class='section-text__setlist-listitem'>Senorita<br><b>Justin Timberlake</b></li>"+
+                        "<li class='section-text__setlist-listitem'>HYMN FOR THE WEEKEND<br><b>Coldplay</b></li>"+
+                        "<li class='section-text__setlist-listitem'>ALL I AM IS YOU<br><b>Jess Glynne</b></li>"+
+                        "<li class='section-text__setlist-listitem'>CAME HERE FOR LOVE<br><b>Sigala</b></li>"+
+                        "<li class='section-text__setlist-listitem'>SENORITA<br><b>Justin Timberlake</b></li>"+
                         "</ul>" +
 
                 "<ul class='section-text__setlist-list u-padding-right'>" +
-                        "<li class='section-text__setlist-listitem'>24k magic<br><b>Bruno Mars</b></li>"+
-                        "<li class='section-text__setlist-listitem'>Shut up and dance with me<br><b>Walk The Moon</b></li>"+
-                        "<li class='section-text__setlist-listitem'>Shotgun<br><b>George Ezra</b></li>"+
-                        "<li class='section-text__setlist-listitem'>I Just Got Paid<br><b>Sigala</b></li>"+
-                        "<li class='section-text__setlist-listitem'>Body<br><b>Loud Luxury</b></li>"+
+                        "<li class='section-text__setlist-listitem'>24K MAGIC<br><b>Bruno Mars</b></li>"+
+                        "<li class='section-text__setlist-listitem'>SHUT UP AND DANCE WITH ME<br><b>Walk The Moon</b></li>"+
+                        "<li class='section-text__setlist-listitem'>SHOTGUN<br><b>George Ezra</b></li>"+
+                        "<li class='section-text__setlist-listitem'>I JUST GOT PAID<br><b>Sigala</b></li>"+
+                        "<li class='section-text__setlist-listitem'>BODY<br><b>Loud Luxury</b></li>"+
                     "</ul>" +
                 "</div>" +
                 "<div class='u-center-text'>And many more...</div></div>";
@@ -101,9 +101,16 @@ function contentContact() {
     },500)};
 
 
+
 function contentClear() {
 	document.getElementById('content').style.opacity = ".0";
 };
+
+
+
+  if (location.hash === '#contactus') {
+    document.addEventListener("DOMContentLoaded", contentContact());
+  };
 
 // function() {
 //   // Fade out

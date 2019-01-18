@@ -34,6 +34,10 @@
 	font-size: 5rem;
 }
 
+.u-none {
+	display: none;
+}
+
 .u-padding-right {
 	padding-right: 4rem;
 }
@@ -41,6 +45,12 @@
 .u-phone-off {
 	@include respond(tab-port) {
 		display: none !important;
+	}
+}
+
+.u-phone-on {
+	@include respond(tab-port) {
+		display: inline !important;
 	}
 }
 
