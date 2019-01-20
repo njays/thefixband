@@ -42,6 +42,10 @@
 	padding-right: 4rem;
 }
 
+.u-padding-left {
+	padding-left: 4rem;
+}
+
 .u-phone-off {
 	@include respond(tab-port) {
 		display: none !important;
@@ -51,6 +55,12 @@
 .u-phone-on {
 	@include respond(tab-port) {
 		display: inline !important;
+	}
+}
+
+.u-phone-onmin {
+	@include respond(tab-portmin) {
+		display: none !important;
 	}
 }
 
